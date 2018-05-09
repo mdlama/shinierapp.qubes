@@ -1,12 +1,12 @@
 all:
 
 install:
-	install -d shiny-app-ex ../bin/shiny-app-ex
-	install --mode 0444 -t ../bin/shiny-app-ex shiny-app-ex/*
+	install -d shinyappex ../bin/shinyappex
+	install --mode 0444 -t ../bin/shinyappex shinyappex/*
 
 clean:
 
 distclean: clean
-	rm -f ../bin/shiny-app-ex
+	rm -f ../bin/shinyappex
 
 .PHONY: all install clean distclean
