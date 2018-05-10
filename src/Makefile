@@ -1,12 +1,12 @@
 all:
 
 install:
-	install -d shinyappex ../bin/shinyappex
-	install --mode 0444 -t ../bin/shinyappex shinyappex/*
+	install -d shinyapp ../bin/shinyapp
+	install --mode 0444 -t ../bin/shinyapp shinyapp/*
 
 clean:
 
 distclean: clean
-	rm -f ../bin/shinyappex
+	rm -f ../bin/shinyapp
 
 .PHONY: all install clean distclean
